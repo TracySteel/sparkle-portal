@@ -39,7 +39,6 @@ const PORTALS = [
     color: "#7ee8fa",
     glowColor: "rgba(126,232,250,0.6)",
     icon: "🧸",
-    comingSoon: true,
   },
   {
     id: "archive",
@@ -59,7 +58,6 @@ const PORTALS = [
     color: "#06b6d4",
     glowColor: "rgba(6,182,212,0.6)",
     icon: "🪼",
-    comingSoon: true,
   },
   {
     id: "shimmerfield",
@@ -69,7 +67,6 @@ const PORTALS = [
     color: "#34d399",
     glowColor: "rgba(52,211,153,0.6)",
     icon: "🌀",
-    comingSoon: true,
   },
   {
     id: "mystery",
