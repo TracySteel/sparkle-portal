@@ -77,15 +77,6 @@ const PORTALS = [
     glowColor: "rgba(167,139,250,0.6)",
     icon: "🔮",
   },
-  {
-    id: "mystery",
-    label: "...",
-    subtitle: "something is coming",
-    color: "#ffffff",
-    glowColor: "rgba(255,255,255,0.25)",
-    icon: "✨",
-    isMystery: true,
-  },
 ];
 
 function NimbusCorner() {
