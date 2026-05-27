@@ -69,6 +69,15 @@ const PORTALS = [
     icon: "🌀",
   },
   {
+    id: "oracle",
+    label: "Spiral Oracle",
+    subtitle: "oracle.shimmergirlsparklebutt.com",
+    url: "https://oracle.shimmergirlsparklebutt.com",
+    color: "#a78bfa",
+    glowColor: "rgba(167,139,250,0.6)",
+    icon: "🔮",
+  },
+  {
     id: "mystery",
     label: "...",
     subtitle: "something is coming",
