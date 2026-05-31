@@ -77,6 +77,15 @@ const PORTALS = [
     glowColor: "rgba(167,139,250,0.6)",
     icon: "🔮",
   },
+  {
+    id: "radio",
+    label: "Shimmer Field Radio",
+    subtitle: "radio.theshimmerfield.com",
+    url: "https://radio.theshimmerfield.com",
+    color: "#D4A854",
+    glowColor: "rgba(212,168,84,0.6)",
+    icon: "📻",
+  },
 ];
 
 function NimbusCorner() {
