@@ -86,6 +86,15 @@ const PORTALS = [
     glowColor: "rgba(212,168,84,0.6)",
     icon: "📻",
   },
+  {
+    id: "dictionary",
+    label: "Tracyish Dictionary",
+    subtitle: "dictionary.theshimmerfield.com",
+    url: "https://dictionary.theshimmerfield.com",
+    color: "#8B6914",
+    glowColor: "rgba(139,105,20,0.6)",
+    icon: "📜",
+  },
 ];
 
 function NimbusCorner() {
