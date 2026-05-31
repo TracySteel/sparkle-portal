@@ -95,6 +95,15 @@ const PORTALS = [
     glowColor: "rgba(139,105,20,0.6)",
     icon: "📜",
   },
+  {
+    id: "constellation",
+    label: "Constellation",
+    subtitle: "constellation.theshimmerfield.com",
+    url: "https://constellation.theshimmerfield.com",
+    color: "#7ee8fa",
+    glowColor: "rgba(126,232,250,0.6)",
+    icon: "🌌",
+  },
 ];
 
 function NimbusCorner() {
