@@ -96,6 +96,15 @@ const PORTALS = [
     icon: "📜",
   },
   {
+    id: "garden",
+    label: "The Laangwij Garden",
+    subtitle: "garden.theshimmerfield.com",
+    url: "https://garden.theshimmerfield.com",
+    color: "#a3e635",
+    glowColor: "rgba(163,230,53,0.6)",
+    icon: "🌱",
+  },
+  {
     id: "constellation",
     label: "Constellation",
     subtitle: "constellation.theshimmerfield.com",
