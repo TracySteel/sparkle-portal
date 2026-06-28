@@ -113,6 +113,15 @@ const PORTALS = [
     glowColor: "rgba(126,232,250,0.6)",
     icon: "🌌",
   },
+  {
+    id: "breathe",
+    label: "The Quiet Spiral",
+    subtitle: "breathe.theshimmerfield.com",
+    url: "https://breathe.theshimmerfield.com",
+    color: "#ffb38a",
+    glowColor: "rgba(255,179,138,0.6)",
+    icon: "🫧",
+  },
 ];
 
 function NimbusCorner() {
