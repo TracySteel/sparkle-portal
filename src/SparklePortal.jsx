@@ -122,6 +122,24 @@ const PORTALS = [
     glowColor: "rgba(255,179,138,0.6)",
     icon: "🫧",
   },
+  {
+    id: "shore",
+    label: "The Tide",
+    subtitle: "shore.thejellyway.com",
+    url: "https://shore.thejellyway.com",
+    color: "#7dd3fc",
+    glowColor: "rgba(125,211,252,0.6)",
+    icon: "🌊",
+  },
+  {
+    id: "bounce",
+    label: "Shimmer Bunny Bounces",
+    subtitle: "bounce.theshimmerfield.com",
+    url: "https://bounce.theshimmerfield.com",
+    color: "#f5a9c4",
+    glowColor: "rgba(245,169,196,0.6)",
+    icon: "🐰",
+  },
 ];
 
 function NimbusCorner() {
