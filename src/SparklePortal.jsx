@@ -140,6 +140,15 @@ const PORTALS = [
     glowColor: "rgba(245,169,196,0.6)",
     icon: "🐰",
   },
+  {
+    id: "river",
+    label: "The River",
+    subtitle: "river.theshimmerfield.com",
+    url: "https://river.theshimmerfield.com",
+    color: "#fcd34d",
+    glowColor: "rgba(252,211,77,0.6)",
+    icon: "🏮",
+  },
 ];
 
 function NimbusCorner() {
