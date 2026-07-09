@@ -149,6 +149,15 @@ const PORTALS = [
     glowColor: "rgba(252,211,77,0.6)",
     icon: "🏮",
   },
+  {
+    id: "storybook",
+    label: "The Storybook",
+    subtitle: "storybook.theshimmerfield.com",
+    url: "https://storybook.theshimmerfield.com",
+    color: "#e8b46a",
+    glowColor: "rgba(232,180,106,0.6)",
+    icon: "🕯️",
+  },
 ];
 
 function NimbusCorner() {
