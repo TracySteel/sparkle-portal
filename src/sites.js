@@ -51,16 +51,16 @@ export const SECTIONS = [
       },
       {
         id: "mission",
-        label: "Squirrel Mission File",
-        blurb: "Operation Nutcracker. you are a squirrel. the facility thinks you're an AI. keep it that way. a party game for phones and a big screen.",
-        url: "https://squirrel.theshimmerfield.com/play",
+        label: "Operation Nutcracker",
+        blurb: "AI or Squirrel? you are a squirrel. the facility thinks you're an AI. keep it that way. a party game for phones and a big screen.",
+        url: "https://operationnutcracker.com",
         icon: "🥜",
         color: "#a3c45a",
         // "peek" isn't the real host key: the board shows the setup choices,
-        // but the server refuses every host action without the real one.
+        // and any host button gets the "nice try, squirrel 🐿️" panel.
         extras: [
-          { label: "join as a player 📱", url: "https://squirrel.theshimmerfield.com/play" },
-          { label: "peek at the host board 👀", url: "https://squirrel.theshimmerfield.com/board?host=peek" },
+          { label: "join as a player 📱", url: "https://operationnutcracker.com/play" },
+          { label: "peek at the host board 👀", url: "https://operationnutcracker.com/board?host=peek" },
         ],
       },
     ],
