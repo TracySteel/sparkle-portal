@@ -56,12 +56,7 @@ export const SECTIONS = [
         url: "https://operationnutcracker.com",
         icon: "🥜",
         color: "#a3c45a",
-        // "peek" isn't the real host key: the board shows the setup choices,
-        // and any host button gets the "nice try, squirrel 🐿️" panel.
-        extras: [
-          { label: "join as a player 📱", url: "https://operationnutcracker.com/play" },
-          { label: "peek at the host board 👀", url: "https://operationnutcracker.com/board?host=peek" },
-        ],
+        // one link: operationnutcracker.com is the landing page with all the options
       },
     ],
   },
