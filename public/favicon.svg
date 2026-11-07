@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- shimmer bunny 🐰 -->
+  <g stroke="#b8467e" stroke-width="2.5" stroke-linejoin="round">
+    <ellipse cx="21" cy="17" rx="7.5" ry="15" fill="#ffd3e6" transform="rotate(-14 21 17)"/>
+    <ellipse cx="43" cy="17" rx="7.5" ry="15" fill="#ffd3e6" transform="rotate(14 43 17)"/>
+  </g>
+  <ellipse cx="21" cy="18" rx="3.4" ry="10" fill="#ff8fc7" transform="rotate(-14 21 18)"/>
+  <ellipse cx="43" cy="18" rx="3.4" ry="10" fill="#ff8fc7" transform="rotate(14 43 18)"/>
+  <ellipse cx="32" cy="41" rx="23" ry="19.5" fill="#ffd3e6" stroke="#b8467e" stroke-width="2.5"/>
+  <ellipse cx="18" cy="46" rx="4.6" ry="2.8" fill="#ff7eb8" opacity="0.65"/>
+  <ellipse cx="46" cy="46" rx="4.6" ry="2.8" fill="#ff7eb8" opacity="0.65"/>
+  <circle cx="24" cy="39" r="3.1" fill="#4b3358"/>
+  <circle cx="40" cy="39" r="3.1" fill="#4b3358"/>
+  <circle cx="25.1" cy="37.8" r="1" fill="#fff"/>
+  <circle cx="41.1" cy="37.8" r="1" fill="#fff"/>
+  <path d="M29.6 44.2h4.8L32 47z" fill="#ff5fa8" stroke="#ff5fa8" stroke-width="1.2" stroke-linejoin="round"/>
+  <path d="M28.6 49q1.7 1.8 3.4 0q1.7 1.8 3.4 0" fill="none" stroke="#4b3358" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M55 3.5q1 4.5 5.5 5.5q-4.5 1-5.5 5.5q-1-4.5-5.5-5.5q4.5-1 5.5-5.5z" fill="#f6c945" stroke="#e0a42a" stroke-width="0.8"/>
+</svg>
