@@ -158,6 +158,15 @@ const PORTALS = [
     glowColor: "rgba(232,180,106,0.6)",
     icon: "🕯️",
   },
+  {
+    id: "everything-turns",
+    label: "Everything Turns",
+    subtitle: "everything-turns.theshimmerfield.com",
+    url: "https://everything-turns.theshimmerfield.com",
+    color: "#9fd8ff",
+    glowColor: "rgba(159,216,255,0.6)",
+    icon: "꩜",
+  },
 ];
 
 function NimbusCorner() {
