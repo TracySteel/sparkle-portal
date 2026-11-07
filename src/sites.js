@@ -57,6 +57,9 @@ export const SECTIONS = [
         icon: "🥜",
         color: "#a3c45a",
         // one link: operationnutcracker.com is the landing page with all the options
+        // launch offer: free live games while the API credit lasts. The badge
+        // hides itself at midnight UK time (GMT in November) after 28 Nov.
+        badge: { text: "🚀 free until 28 Nov", until: "2026-11-29T00:00:00Z" },
       },
     ],
   },

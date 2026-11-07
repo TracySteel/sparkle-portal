@@ -421,6 +421,16 @@
   background: color-mix(in srgb, var(--c) 16%, transparent);
   color: var(--ink-soft);
 }
+.card-badge.is-hot {
+  color: #fff;
+  background: linear-gradient(135deg, #ff7eb8, #ff9f5a);
+  box-shadow: 0 3px 10px -4px #ff7eb8;
+  animation: badgeBob 2.4s ease-in-out infinite;
+}
+@keyframes badgeBob {
+  0%, 100% { transform: translateY(0) rotate(-2deg); }
+  50% { transform: translateY(-2px) rotate(2deg); }
+}
 .card-extras { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
 .chip-link {
   position: relative;

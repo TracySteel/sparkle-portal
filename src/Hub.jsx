@@ -31,8 +31,17 @@ function readHash() {
   return FILTERS.some((f) => f.id === h) ? h : "all";
 }
 
+// a card's `badge` can carry an `until` date; after it, the badge quietly disappears
+const badgeLive = (b) => b && (!b.until || Date.now() < Date.parse(b.until));
+
 function Card({ item }) {
-  const status = item.locked ? "🔒 private" : item.soon ? "🌱 coming soon" : null;
+  const status = item.locked
+    ? "🔒 private"
+    : item.soon
+      ? "🌱 coming soon"
+      : badgeLive(item.badge)
+        ? item.badge.text
+        : null;
   return (
     <article
       className={`card${item.soon ? " card-soon" : ""}`}
@@ -50,7 +59,9 @@ function Card({ item }) {
         <p className="card-blurb">{item.blurb}</p>
         <div className="card-foot">
           <span className="card-host">{hostOf(item.url)}</span>
-          {status && <span className="card-badge">{status}</span>}
+          {status && (
+            <span className={`card-badge${item.locked || item.soon ? "" : " is-hot"}`}>{status}</span>
+          )}
         </div>
         {(item.race || item.extras) && (
           <div className="card-extras">
