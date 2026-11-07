@@ -21,6 +21,9 @@ const NIMBUS = [
   { mood: "mood", emoji: "🌧️", line: "don't look at me." },
 ];
 
+// external worlds open in their own tab, so the portal stays open behind them
+const NEW_TAB = { target: "_blank", rel: "noopener noreferrer" };
+
 const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
 function readHash() {
@@ -41,7 +44,7 @@ function Card({ item }) {
           {item.soon ? (
             item.label
           ) : (
-            <a className="card-link" href={item.url}>{item.label}</a>
+            <a className="card-link" href={item.url} {...NEW_TAB}>{item.label}</a>
           )}
         </h3>
         <p className="card-blurb">{item.blurb}</p>
@@ -52,10 +55,10 @@ function Card({ item }) {
         {(item.race || item.extras) && (
           <div className="card-extras">
             {item.race && (
-              <a className="chip-link" href={item.race}>race a friend 🏁</a>
+              <a className="chip-link" href={item.race} {...NEW_TAB}>race a friend 🏁</a>
             )}
             {item.extras?.map((x) => (
-              <a key={x.url} className="chip-link" href={x.url}>{x.label}</a>
+              <a key={x.url} className="chip-link" href={x.url} {...NEW_TAB}>{x.label}</a>
             ))}
           </div>
         )}
@@ -79,9 +82,9 @@ function Featured() {
         <h2 id="featured-title" className="featured-title">{FEATURED.label}</h2>
         <p className="featured-blurb">{FEATURED.blurb} 💛</p>
         <div className="featured-actions">
-          <a className="btn-main" href={FEATURED.url}>visit the burrow →</a>
+          <a className="btn-main" href={FEATURED.url} {...NEW_TAB}>visit the burrow →</a>
           {FEATURED.extras.map((x) => (
-            <a key={x.url} className="btn-soft" href={x.url}>{x.label}</a>
+            <a key={x.url} className="btn-soft" href={x.url} {...NEW_TAB}>{x.label}</a>
           ))}
         </div>
       </div>
