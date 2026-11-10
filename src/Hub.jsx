@@ -179,7 +179,7 @@ export default function Hub() {
       .filter((s) => s.items.length);
   }, [filter, q]);
 
-  const total = SECTIONS.reduce((n, s) => n + s.items.length, 0) - 1; // TGC appears twice
+  const total = new Set(SECTIONS.flatMap((s) => s.items.map((i) => i.id))).size; // some worlds live in two sections
 
   return (
     <div className="hub" data-theme={theme}>

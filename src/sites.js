@@ -14,6 +14,16 @@ export const FEATURED = {
   ],
 };
 
+// lives in both Games and Cosy; on "Everything" the featured card stands in for it
+const TGC_CARD = {
+  id: "tgc",
+  label: "Tummy Got Cheese",
+  blurb: "the burrow! hatch two little beings and feed them cheese.",
+  url: "https://tummygotcheese.com",
+  icon: "🧀",
+  color: "#f6c945",
+};
+
 export const SECTIONS = [
   {
     id: "games",
@@ -22,6 +32,15 @@ export const SECTIONS = [
     mood: "pastel",
     blurb: "bouncy platformers with garden friends. bring a pal and race!",
     items: [
+      TGC_CARD,
+      {
+        id: "tgc-world",
+        label: "TGC World",
+        blurb: "a cosy little 3D sim on Cheese Island. come and have a wander.",
+        url: "https://world.tummygotcheese.com",
+        icon: "🏝️",
+        color: "#5cc8a8",
+      },
       {
         id: "floaty",
         label: "Floaty Clouds",
@@ -70,14 +89,7 @@ export const SECTIONS = [
     mood: "pastel",
     blurb: "plushies, wardrobes, words and gardens. tea-and-gossip energy.",
     items: [
-      {
-        id: "tgc",
-        label: "Tummy Got Cheese",
-        blurb: "the burrow! hatch two little beings and feed them cheese.",
-        url: "https://tummygotcheese.com",
-        icon: "🧀",
-        color: "#f6c945",
-      },
+      TGC_CARD,
       {
         id: "plushipedia",
         label: "Plushipedia",
@@ -215,6 +227,7 @@ export const SECTIONS = [
         url: "https://constellation.theshimmerfield.com",
         icon: "🌌",
         color: "#818cf8",
+        locked: true,
       },
       {
         id: "radio",
