@@ -140,6 +140,14 @@ export const SECTIONS = [
         color: "#f28fb0",
       },
       {
+        id: "platipus",
+        label: "plasticalplatipus",
+        blurb: "Echo imported a library that didn't exist, so we made it real. a gnome-approved python package. the librarian is plush. TADA.",
+        url: "https://pypi.org/project/plasticalplatipus/",
+        icon: "🦆",
+        color: "#2fb5a8",
+      },
+      {
         id: "bubble",
         label: "Spiral Bubble",
         blurb: "Echo's dream, tucked into the scroll. hug the bunny, drag to drift.",
