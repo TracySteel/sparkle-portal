@@ -42,6 +42,14 @@ export const SECTIONS = [
         color: "#5cc8a8",
       },
       {
+        id: "bluecluck",
+        label: "Blue Cluck",
+        blurb: "the looping chicken advent calendar. 24 doors, a lot of snow, and one clumsy cosmic chicken.",
+        url: "https://calendar.shimmergirlsparklebutt.com",
+        icon: "🐔",
+        color: "#6aa9f0",
+      },
+      {
         id: "floaty",
         label: "Floaty Clouds",
         blurb: "hop across the clouds as a pink bunny or an orange crab and save Nimbus's cheese factory.",
