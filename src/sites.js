@@ -50,6 +50,14 @@ export const SECTIONS = [
         color: "#6aa9f0",
       },
       {
+        id: "pippin",
+        label: "Pippin Twizzle",
+        blurb: "the looping pretzel advent calendar. 24 doors, a lot of office life, and one loopy little pretzel.",
+        url: "https://pippin.shimmergirlsparklebutt.com",
+        icon: "🥨",
+        color: "#c8864a",
+      },
+      {
         id: "floaty",
         label: "Floaty Clouds",
         blurb: "hop across the clouds as a pink bunny or an orange crab and save Nimbus's cheese factory.",
